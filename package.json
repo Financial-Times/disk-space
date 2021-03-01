@@ -22,5 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/idjem/disk-space.git"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "mocha": "^8.3.0",
+    "proclaim": "^3.6.0"
+  },
+  "scripts": {
+    "test": "mocha index.test.js"
+  }
 }
