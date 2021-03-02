@@ -17,6 +17,6 @@ jobs:
       id: version
       run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
     - run: npm version --no-git-tag-version ${{ steps.version.outputs.VERSION }}
-    - run: npm publish --tag prerelease
+    - run: npm publish --access=public --tag prerelease
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
