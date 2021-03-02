@@ -4,11 +4,11 @@
     "name": "Mejdi Ourir"
   },
   "bugs": {
-    "url": "https://github.com/idjem/disk-space/issues"
+    "url": "https://github.com/Financial-Times/disk-space/issues"
   },
-  "description": "get disk space I have in Linux or OS X",
-  "homepage": "https://github.com/idjem/disk-space#readme",
-  "license": "ISC",
+  "description": "Find the used and total size of the file system in kilobytes",
+  "homepage": "https://github.com/Financial-Times/disk-space#readme",
+  "license": "MIT",
   "main": "index.js",
   "maintainers": [
     {
@@ -16,11 +16,10 @@
       "name": "idjem"
     }
   ],
-  "name": "disk-space",
-  "readme": "ERROR: No README data found!",
+  "name": "@financial-times/disk-space",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idjem/disk-space.git"
+    "url": "git+https://github.com/Financial-Times/disk-space.git"
   },
   "version": "1.0.0",
   "devDependencies": {
