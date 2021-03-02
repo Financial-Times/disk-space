@@ -2,7 +2,7 @@
 	"description": "Find the used and total size of the file system in kilobytes",
 	"origamiType": "library",
 	"origamiVersion": 1,
-	"keywords": [],
+	"keywords": ['disk', 'file-system'],
 	"support": "https://github.com/Financial-Times/disk-space/issues",
 	"supportStatus": "active",
 	"supportContact": {
